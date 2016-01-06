@@ -1645,6 +1645,7 @@ pre .css ~ * .id {
 .share {
   padding: 0px 75px 30px 40px;
   margin-bottom: 15px;
+  font-size: 10px;
 }
 .back_home {
   float: right;
