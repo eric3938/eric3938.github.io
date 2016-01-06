@@ -135,6 +135,7 @@ html,
 body,
 #container {
   height: 100%;
+  background-color: #eaeaea;
 }
 body {
   font-family: "微软雅黑", "HelveticaNeue-Light", "Helvetica Neue Light", "Helvetica Neue", Helvetica, Arial, sans-serif;
@@ -204,8 +205,8 @@ a {
 #container #mobile-nav .overlay {
   height: 110px;
   position: absolute;
-  width: 60%;
-  background: #eaeaea;
+  width: 100%;
+  background: #4d4d4d;
 }
 #container #mobile-nav .overlay.fixed {
   position: fixed;
@@ -260,8 +261,8 @@ a {
   right: 0;
   min-height: 100%;
   background: #eaeaea;
-  left: 300px;
-  width: auto;
+  left: 35%;
+  width: 60%;
 }
 @media screen and (max-width: 800px) {
   #container .left-col {
